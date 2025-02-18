@@ -1,9 +1,10 @@
-package repositoryTest;
+package test.repositoryTest;
 
-import com.rateneuprofessor.entity.Comment;
-import com.rateneuprofessor.repository.CommentRepository;
-import com.rateneuprofessor.repository.impl.CommentRepositoryImpl;
 import org.junit.Test;
+
+import main.java.com.rateneuprofessor.entity.Comment;
+import main.java.com.rateneuprofessor.repository.CommentRepository;
+import main.java.com.rateneuprofessor.repository.impl.CommentRepositoryImpl;
 
 import java.time.LocalDateTime;
 import java.util.List;

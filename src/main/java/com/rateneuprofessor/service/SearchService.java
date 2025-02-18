@@ -1,10 +1,10 @@
 package com.rateneuprofessor.service;
 
+import java.util.List;
+
 import com.rateneuprofessor.entity.Course;
 import com.rateneuprofessor.entity.Professor;
 import com.rateneuprofessor.entity.Sort;
-
-import java.util.List;
 
 /**
  * Service interface for Search service.

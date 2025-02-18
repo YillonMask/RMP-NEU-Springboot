@@ -1,12 +1,13 @@
-package repositoryTest;
+package test.repositoryTest;
 
 import static org.junit.Assert.*;
 
-import com.rateneuprofessor.entity.Campus;
-import com.rateneuprofessor.repository.CampusRepository;
-import com.rateneuprofessor.repository.impl.CampusRepositoryImpl;
 import java.util.List;
 import org.junit.Test;
+
+import main.java.com.rateneuprofessor.entity.Campus;
+import main.java.com.rateneuprofessor.repository.CampusRepository;
+import main.java.com.rateneuprofessor.repository.impl.CampusRepositoryImpl;
 
 public class CampusRepositoryImplTest {
 

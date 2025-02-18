@@ -1,11 +1,12 @@
-package serviceTest;
+package test.serviceTest;
 
-import com.rateneuprofessor.entity.Course;
-import com.rateneuprofessor.repository.CourseRepository;
-import com.rateneuprofessor.repository.impl.CourseRepositoryImpl;
-import com.rateneuprofessor.service.CourseService;
-import com.rateneuprofessor.service.impl.CourseServiceImpl;
 import org.junit.Test;
+
+import main.java.com.rateneuprofessor.entity.Course;
+import main.java.com.rateneuprofessor.repository.CourseRepository;
+import main.java.com.rateneuprofessor.repository.impl.CourseRepositoryImpl;
+import main.java.com.rateneuprofessor.service.CourseService;
+import main.java.com.rateneuprofessor.service.impl.CourseServiceImpl;
 
 import java.util.ArrayList;
 import java.util.List;

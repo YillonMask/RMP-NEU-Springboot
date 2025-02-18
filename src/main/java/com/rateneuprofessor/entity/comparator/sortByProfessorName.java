@@ -1,8 +1,8 @@
 package com.rateneuprofessor.entity.comparator;
 
-import com.rateneuprofessor.entity.Professor;
-
 import java.util.Comparator;
+
+import com.rateneuprofessor.entity.Professor;
 
 /**
  * Comparator class to sort professors by name.

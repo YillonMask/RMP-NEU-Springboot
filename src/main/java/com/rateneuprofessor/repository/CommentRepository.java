@@ -1,9 +1,9 @@
 package com.rateneuprofessor.repository;
 
-import com.rateneuprofessor.entity.Comment;
-
 import java.time.LocalDateTime;
 import java.util.List;
+
+import com.rateneuprofessor.entity.Comment;
 
 /**
  * Repository interface for Comment repository.

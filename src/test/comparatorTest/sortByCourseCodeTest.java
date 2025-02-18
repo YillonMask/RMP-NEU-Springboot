@@ -1,11 +1,12 @@
-package comparatorTest;
+package test.comparatorTest;
 
-import com.rateneuprofessor.entity.Course;
-import com.rateneuprofessor.entity.comparator.sortByCourseCode;
-import com.rateneuprofessor.repository.CourseRepository;
-import com.rateneuprofessor.repository.impl.CourseRepositoryImpl;
 import org.junit.Before;
 import org.junit.Test;
+
+import main.java.com.rateneuprofessor.entity.Course;
+import main.java.com.rateneuprofessor.entity.comparator.sortByCourseCode;
+import main.java.com.rateneuprofessor.repository.CourseRepository;
+import main.java.com.rateneuprofessor.repository.impl.CourseRepositoryImpl;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,8 +1,4 @@
-package utilsTest;
-
-import com.rateneuprofessor.entity.Comment;
-import com.rateneuprofessor.entity.Course;
-import com.rateneuprofessor.utils.GsonTools;
+package test.utilsTest;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,6 +6,10 @@ import java.util.List;
 import java.util.Map;
 import org.junit.Before;
 import org.junit.Test;
+
+import main.java.com.rateneuprofessor.entity.Comment;
+import main.java.com.rateneuprofessor.entity.Course;
+import main.java.com.rateneuprofessor.utils.GsonTools;
 
 import static org.junit.Assert.assertEquals;
 

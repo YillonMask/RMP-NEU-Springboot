@@ -1,8 +1,8 @@
 package com.rateneuprofessor.entity.comparator;
 
-import com.rateneuprofessor.entity.Course;
-
 import java.util.Comparator;
+
+import com.rateneuprofessor.entity.Course;
 
 /**
  * Comparator class to sort courses by course code.

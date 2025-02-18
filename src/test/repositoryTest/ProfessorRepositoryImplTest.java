@@ -1,9 +1,10 @@
-package repositoryTest;
+package test.repositoryTest;
 
-import com.rateneuprofessor.entity.Professor;
-import com.rateneuprofessor.repository.ProfessorRepository;
-import com.rateneuprofessor.repository.impl.ProfessorRepositoryImpl;
 import org.junit.Test;
+
+import main.java.com.rateneuprofessor.entity.Professor;
+import main.java.com.rateneuprofessor.repository.ProfessorRepository;
+import main.java.com.rateneuprofessor.repository.impl.ProfessorRepositoryImpl;
 
 import java.util.List;
 

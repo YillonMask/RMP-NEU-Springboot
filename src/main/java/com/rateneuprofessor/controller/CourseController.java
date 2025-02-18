@@ -3,34 +3,27 @@ package com.rateneuprofessor.controller;
 import com.rateneuprofessor.service.CourseService;
 import com.rateneuprofessor.service.impl.CourseServiceImpl;
 import com.rateneuprofessor.utils.GsonTools;
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
-import java.io.IOException;
+@RestController
+public class CourseController {
 
-@WebServlet("/course")
-public class CourseServlet extends HttpServlet {
     private CourseService courseService = new CourseServiceImpl();
 
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        resp.setContentType("application/json; charset=UTF-8");
-        String courseName = req.getParameter("course_name");
-        String courseCode = req.getParameter("course_code");
-        String professorName = req.getParameter("professor_name");
-        Integer campusId = Integer.valueOf(req.getParameter("campus_id"));
+    @PostMapping("/course")
+    public String addCourse(
+            @RequestParam("course_name") String courseName,
+            @RequestParam("course_code") String courseCode,
+            @RequestParam("professor_name") String professorName,
+            @RequestParam("campus_id") Integer campusId
+    ) {
         try {
-            courseService.addCourse(courseName, professorName,courseCode, campusId);
-            resp.getWriter().write(
-                    GsonTools.success("Course added successfully")
-            );
-        }catch (NullPointerException e){
-            resp.getWriter().write(
-                    GsonTools.error("Professor not found")
-            );
+            courseService.addCourse(courseName, professorName, courseCode, campusId);
+            return GsonTools.success("Course added successfully");
+        } catch (NullPointerException e) {
+            return GsonTools.error("Professor not found");
         }
-
     }
 }

@@ -1,5 +1,8 @@
 package com.rateneuprofessor.service.impl;
 
+import java.util.*;
+import java.util.stream.Collectors;
+
 import com.rateneuprofessor.entity.Course;
 import com.rateneuprofessor.entity.Professor;
 import com.rateneuprofessor.entity.Sort;
@@ -10,9 +13,6 @@ import com.rateneuprofessor.repository.ProfessorRepository;
 import com.rateneuprofessor.repository.impl.CourseRepositoryImpl;
 import com.rateneuprofessor.repository.impl.ProfessorRepositoryImpl;
 import com.rateneuprofessor.service.SearchService;
-
-import java.util.*;
-import java.util.stream.Collectors;
 
 public class SearchServiceImpl implements SearchService {
     private CourseRepository courseRepository = new CourseRepositoryImpl();

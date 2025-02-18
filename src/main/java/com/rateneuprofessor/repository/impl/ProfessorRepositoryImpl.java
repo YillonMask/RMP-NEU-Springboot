@@ -1,12 +1,12 @@
 package com.rateneuprofessor.repository.impl;
 
-import com.rateneuprofessor.entity.Professor;
-import com.rateneuprofessor.repository.ProfessorRepository;
-
-import com.rateneuprofessor.utils.JDBCTools;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.rateneuprofessor.entity.Professor;
+import com.rateneuprofessor.repository.ProfessorRepository;
+import com.rateneuprofessor.utils.JDBCTools;
 
 public class ProfessorRepositoryImpl implements ProfessorRepository {
     @Override

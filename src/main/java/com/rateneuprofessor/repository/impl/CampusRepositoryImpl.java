@@ -1,14 +1,15 @@
 package com.rateneuprofessor.repository.impl;
 
-import com.rateneuprofessor.entity.Campus;
-import com.rateneuprofessor.repository.CampusRepository;
-import com.rateneuprofessor.utils.JDBCTools;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.rateneuprofessor.entity.Campus;
+import com.rateneuprofessor.repository.CampusRepository;
+import com.rateneuprofessor.utils.JDBCTools;
 
 public class CampusRepositoryImpl implements CampusRepository {
 

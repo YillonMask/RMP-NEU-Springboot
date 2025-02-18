@@ -1,8 +1,8 @@
 package com.rateneuprofessor.service;
 
-import com.rateneuprofessor.entity.Comment;
-
 import java.util.List;
+
+import com.rateneuprofessor.entity.Comment;
 
 /**
  * Service interface for Comment service.

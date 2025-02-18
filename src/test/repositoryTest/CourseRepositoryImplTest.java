@@ -1,9 +1,10 @@
-package repositoryTest;
+package test.repositoryTest;
 
-import com.rateneuprofessor.entity.Course;
-import com.rateneuprofessor.repository.CourseRepository;
-import com.rateneuprofessor.repository.impl.CourseRepositoryImpl;
 import org.junit.Test;
+
+import main.java.com.rateneuprofessor.entity.Course;
+import main.java.com.rateneuprofessor.repository.CourseRepository;
+import main.java.com.rateneuprofessor.repository.impl.CourseRepositoryImpl;
 
 import java.util.List;
 

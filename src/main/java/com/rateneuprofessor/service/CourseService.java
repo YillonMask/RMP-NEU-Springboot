@@ -1,8 +1,8 @@
 package com.rateneuprofessor.service;
 
-import com.rateneuprofessor.entity.Course;
-
 import java.util.List;
+
+import com.rateneuprofessor.entity.Course;
 
 /**
  * Service interface for Course service.

@@ -1,9 +1,10 @@
-package serviceTest;
+package test.serviceTest;
 
-import com.rateneuprofessor.entity.Professor;
-import com.rateneuprofessor.service.ProfessorService;
-import com.rateneuprofessor.service.impl.ProfessorServiceImpl;
 import org.junit.Test;
+
+import main.java.com.rateneuprofessor.entity.Professor;
+import main.java.com.rateneuprofessor.service.ProfessorService;
+import main.java.com.rateneuprofessor.service.impl.ProfessorServiceImpl;
 
 import java.util.List;
 

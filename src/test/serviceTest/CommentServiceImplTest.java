@@ -1,9 +1,10 @@
-package serviceTest;
+package test.serviceTest;
+
+import org.junit.Test;
 
 import com.rateneuprofessor.entity.Comment;
 import com.rateneuprofessor.service.CommentService;
 import com.rateneuprofessor.service.impl.CommentServiceImpl;
-import org.junit.Test;
 
 import java.util.List;
 

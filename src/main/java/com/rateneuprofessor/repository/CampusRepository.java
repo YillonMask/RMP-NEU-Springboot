@@ -1,7 +1,8 @@
 package com.rateneuprofessor.repository;
 
-import com.rateneuprofessor.entity.Campus;
 import java.util.List;
+
+import com.rateneuprofessor.entity.Campus;
 
 /**
  * Repository interface for Campus repository.

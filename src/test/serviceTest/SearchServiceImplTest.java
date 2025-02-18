@@ -1,11 +1,12 @@
-package serviceTest;
+package test.serviceTest;
 
-import com.rateneuprofessor.entity.Course;
-import com.rateneuprofessor.entity.Professor;
-import com.rateneuprofessor.entity.Sort;
-import com.rateneuprofessor.service.SearchService;
-import com.rateneuprofessor.service.impl.SearchServiceImpl;
 import org.junit.Test;
+
+import main.java.com.rateneuprofessor.entity.Course;
+import main.java.com.rateneuprofessor.entity.Professor;
+import main.java.com.rateneuprofessor.entity.Sort;
+import main.java.com.rateneuprofessor.service.SearchService;
+import main.java.com.rateneuprofessor.service.impl.SearchServiceImpl;
 
 import java.util.List;
 

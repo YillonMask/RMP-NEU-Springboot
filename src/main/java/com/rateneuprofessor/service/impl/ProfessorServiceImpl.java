@@ -1,11 +1,11 @@
 package com.rateneuprofessor.service.impl;
 
+import java.util.List;
+
 import com.rateneuprofessor.entity.Professor;
 import com.rateneuprofessor.repository.ProfessorRepository;
 import com.rateneuprofessor.repository.impl.ProfessorRepositoryImpl;
 import com.rateneuprofessor.service.ProfessorService;
-
-import java.util.List;
 
 public class ProfessorServiceImpl implements ProfessorService {
     private ProfessorRepository professorRepository = new ProfessorRepositoryImpl();

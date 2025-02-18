@@ -1,8 +1,8 @@
 package com.rateneuprofessor.repository;
 
-import com.rateneuprofessor.entity.Professor;
-
 import java.util.List;
+
+import com.rateneuprofessor.entity.Professor;
 
 /**
  * Repository interface for Professor repository.
